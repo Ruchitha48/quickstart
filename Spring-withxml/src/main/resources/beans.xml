@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://wwww.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ <bean id="student1" class="com.example.demo.Student">
+ <constructor-arg index="0" value="12"></constructor-arg>
+ <constructor-arg index="1" value="Ruchitha"></constructor-arg>
+ <constructor-arg index="2" value="7855453"></constructor-arg>
+ </bean>
+</beans>
