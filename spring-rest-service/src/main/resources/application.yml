@@ -1,0 +1,12 @@
+server:
+  port: 4040
+spring:
+  datasource:
+    password: system
+    url: jdbc:mysql://localhost:3306/banking
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  
